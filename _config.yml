@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: zzh的博客
+title: Zenghui的博客
 subtitle: 处世不必邀功，无过便是功
-description: 中国海洋大学11级，产品，前端。
+description: 中国海洋大学11级，产品。
 author: Zhao Zenghui
 language:
 timezone:
@@ -25,7 +25,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: README.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -80,3 +80,22 @@ deploy:
   type: git
   repo: https://github.com/lzzzh2008/lzzzh2008.github.io.git
   branch: master
+
+jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: false
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
