@@ -5,7 +5,7 @@
 # Site
 title: Zenghui的博客
 subtitle: 处世不必邀功，无过便是功
-description: 中国海洋大学11级，产品。
+description: 产品。
 author: Zhao Zenghui
 language:
 timezone:
@@ -78,7 +78,7 @@ theme: yilia
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/lzzzh2008/lzzzh2008.github.io.git
+  repo: git@github.com:lzzzh2008/lzzzh2008.github.io.git
   branch: master
 
 jsonContent:
