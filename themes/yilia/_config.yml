@@ -91,11 +91,11 @@ changyan_conf: true
 disqus: true
 
 #5、Gitment
-gitment_owner: false      #你的 GitHub ID
-gitment_repo: ''          #存储评论的 repo
+gitment_owner: lzzzh2008      #你的 GitHub ID
+gitment_repo: 'https://github.com/lzzzh2008/BlogDemo.git'          #存储评论的 repo
 gitment_oauth:
-  client_id: ''           #client ID
-  client_secret: ''       #client secret
+  client_id: '104551d7ca257ba4e9b8'           #client ID
+  client_secret: '0f43509fba96e4521aa336db688db103c7e3e4ac'       #client secret
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
